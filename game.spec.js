@@ -1,19 +1,21 @@
+/* globals Game */
+
 var sinon = require('sinon');
 require('mocha-sinon');
 
 require('./game.js');
 
-describe("The test environment", function() {
-  it("should pass", function() {
+describe('The test environment', function() {
+  it('should pass', function() {
     expect(true).toBe(true);
   });
 
-  it("should access game", function() {
+  it('should access game', function() {
     expect(Game).toBeDefined();
   });
 });
 
-describe("Game Play", function() {
+describe('Game Play', function() {
 
   beforeEach(function() {
     this.sinon.stub(console, 'log');
@@ -21,16 +23,32 @@ describe("Game Play", function() {
 
   afterEach(function () {
     console.log.restore(); // Unwraps the spy
-});
-
-  it("Should add one new Player", function(){
-    var playerName = "Anas";
-
-    var game = new Game();
-    game.add(playerName);
-
-    expect( console.log.calledTwice ).toBe(true);
-    expect(console.log.args[0][0]).toBe('Anas was added');
-    expect(console.log.args[1][0]).toBe('They are player number 1');
   });
+
+  function addPlayers(n) {
+    var output = [];
+    var game = new Game();
+
+    for (var i = 1; i < n + 1; i ++){
+      var playerName = 'player' + i;
+      var playerAddedStr = playerName + ' was added';
+      var playerNoStr = 'They are player number ' + i;
+
+      output.push([playerAddedStr]);
+      output.push([playerNoStr]);
+      game.add(playerName);
+    }
+
+    expect( console.log.callCount ).toBe(n * 2);
+    expect(console.log.args.join()).toBe(output.join());
+  }
+
+  it('Should add one new Player', function(){
+    addPlayers(1);
+  });
+
+  it('Should add 10 new Players', function(){
+    addPlayers(10);
+  });
+
 });
