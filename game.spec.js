@@ -23,7 +23,7 @@ describe("Game Play", function() {
     console.log.restore(); // Unwraps the spy
 });
 
-  it("Shoud add one new Player", function(){
+  it("Should add one new Player", function(){
     var playerName = "Anas";
 
     var game = new Game();
