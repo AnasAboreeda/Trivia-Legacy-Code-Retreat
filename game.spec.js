@@ -51,4 +51,22 @@ describe('Game Play', function() {
     addPlayers(10);
   });
 
+  //Testing isPlayable
+  it('Should be playable after adding two players', function(){
+    var game = new Game();
+    game.add('Anas');
+    game.add('Tom');
+
+    //FIXME: isPlayable needs to be refactored
+    expect(game.isPlayable(game.howManyPlayers())).toBe(true);
+  });
+
+  it('Should not be playable after adding one player', function(){
+    var game = new Game();
+    game.add('Tom');
+
+    //FIXME: isPlayable needs to be refactored
+    expect(game.isPlayable(game.howManyPlayers())).toBe(false);
+  });
+
 });
