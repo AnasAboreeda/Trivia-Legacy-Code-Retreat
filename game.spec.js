@@ -1,3 +1,6 @@
+var sinon = require('sinon');
+require('mocha-sinon');
+
 require('./game.js');
 
 describe("The test environment", function() {
