@@ -4,13 +4,9 @@ This is my version of legacy code retreat in Javascript. The code base is taken 
 
 ## Test with node.js
 
-- Install the jasmine-node plugin from https://github.com/mhevery/jasmine-node
+- First you need to run `npm install` inside game directory
 
-```ShellSession
-npm install jasmine-node -g
-```
-
-- And execute:
+- Then execute:
 
 ```ShellSession
 jasmine-node .
