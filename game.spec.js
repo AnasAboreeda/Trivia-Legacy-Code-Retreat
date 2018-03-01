@@ -70,4 +70,26 @@ describe('Game Play', function() {
     expect(game.isPlayable(game.howManyPlayers())).toBe(false);
   });
 
+  // Testing: roll
+  it('Should be able to roll the dice', function(){
+    var game = new Game();
+    var dice = Math.floor(Math.random()*6) + 1;
+    var expectedOutput = [ [ 'Tom was added' ],
+    [ 'They are player number 1' ],
+    [ 'Dan was added' ],
+    [ 'They are player number 2' ],
+    [ 'Tom is the current player' ],
+    [ 'They have rolled a ' + dice ],
+    [ 'Tom\'s new location is ' + dice ],
+    [ 'The category is Rock' ],
+    [ 'Rock Question 0' ] ];
+
+    game.add('Tom');
+    game.add('Dan');
+
+    game.roll(dice);
+
+    expect(console.log.args.join(), expectedOutput.join());
+  });
+
 });
