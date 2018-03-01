@@ -13,6 +13,24 @@ describe("The test environment", function() {
   });
 });
 
-describe("Your specs...", function() {
-  // it ...
+describe("Game Play", function() {
+
+  beforeEach(function() {
+    this.sinon.stub(console, 'log');
+  });
+
+  afterEach(function () {
+    console.log.restore(); // Unwraps the spy
+});
+
+  it("Shoud add one new Player", function(){
+    var playerName = "Anas";
+
+    var game = new Game();
+    game.add(playerName);
+
+    expect( console.log.calledTwice ).toBe(true);
+    expect(console.log.args[0][0]).toBe('Anas was added');
+    expect(console.log.args[1][0]).toBe('They are player number 1');
+  });
 });
