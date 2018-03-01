@@ -25,6 +25,7 @@ describe('Game Play', function() {
     console.log.restore(); // Unwraps the spy
   });
 
+  // Testing: add
   function addPlayers(n) {
     var output = [];
     var game = new Game();
@@ -51,7 +52,7 @@ describe('Game Play', function() {
     addPlayers(10);
   });
 
-  //Testing isPlayable
+  // Testing: isPlayable
   it('Should be playable after adding two players', function(){
     var game = new Game();
     game.add('Anas');
