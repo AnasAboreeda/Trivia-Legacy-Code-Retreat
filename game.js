@@ -168,27 +168,4 @@ exports.Game = function() {
       currentPlayer = 0;
 		return true;
   };
-
-  this.play = function (playersCount, diceRoll){
-    var notAWinner = false;
-
-    var game = new Game();
-
-    // Add new players
-    for (var i = 1; i < playersCount + 1; i += 1) {
-      var playerName = "player_" + i;
-      game.add(playerName);
-    }
-
-    do{
-      game.roll(diceRoll || Math.floor(Math.random()*6) + 1);
-
-      if(Math.floor(Math.random()*10) == 7){
-        notAWinner = game.wrongAnswer();
-      }else{
-        notAWinner = game.wasCorrectlyAnswered();
-      }
-
-    }while(notAWinner);
-  }
 };

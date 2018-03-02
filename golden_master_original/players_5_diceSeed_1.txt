@@ -1,0 +1,171 @@
+player_0 was added
+They are player number 1
+player_1 was added
+They are player number 2
+player_2 was added
+They are player number 3
+player_3 was added
+They are player number 4
+player_4 was added
+They are player number 5
+player_0 is the current player
+They have rolled a 2
+player_0's new location is 02
+The category is Sports
+Sports Question 0
+Answer was correct!!!!
+player_0 now has 1 Gold Coins.
+player_1 is the current player
+They have rolled a 2
+player_1's new location is 02
+The category is Sports
+Sports Question 1
+Answer was correct!!!!
+player_1 now has 1 Gold Coins.
+player_2 is the current player
+They have rolled a 2
+player_2's new location is 02
+The category is Sports
+Sports Question 2
+Answer was correct!!!!
+player_2 now has 1 Gold Coins.
+player_3 is the current player
+They have rolled a 2
+player_3's new location is 02
+The category is Sports
+Sports Question 3
+Answer was correct!!!!
+player_3 now has 1 Gold Coins.
+player_4 is the current player
+They have rolled a 2
+player_4's new location is 02
+The category is Sports
+Sports Question 4
+Answer was correct!!!!
+player_4 now has 1 Gold Coins.
+player_0 is the current player
+They have rolled a 2
+player_0's new location is 10
+The category is Sports
+Sports Question 5
+Question was incorrectly answered
+player_0 was sent to the penalty box
+player_1 is the current player
+They have rolled a 2
+player_1's new location is 10
+The category is Sports
+Sports Question 6
+Answer was correct!!!!
+player_1 now has 2 Gold Coins.
+player_2 is the current player
+They have rolled a 2
+player_2's new location is 10
+The category is Sports
+Sports Question 7
+Answer was correct!!!!
+player_2 now has 2 Gold Coins.
+player_3 is the current player
+They have rolled a 2
+player_3's new location is 10
+The category is Sports
+Sports Question 8
+Question was incorrectly answered
+player_3 was sent to the penalty box
+player_4 is the current player
+They have rolled a 2
+player_4's new location is 10
+The category is Sports
+Sports Question 9
+Answer was correct!!!!
+player_4 now has 2 Gold Coins.
+player_0 is the current player
+They have rolled a 2
+player_0 is not getting out of the penalty box
+player_1 is the current player
+They have rolled a 2
+player_1's new location is 90
+The category is Rock
+Rock Question 0
+Answer was correct!!!!
+player_1 now has 3 Gold Coins.
+player_2 is the current player
+They have rolled a 2
+player_2's new location is 90
+The category is Rock
+Rock Question 1
+Answer was correct!!!!
+player_2 now has 3 Gold Coins.
+player_3 is the current player
+They have rolled a 2
+player_3 is not getting out of the penalty box
+player_4 is the current player
+They have rolled a 2
+player_4's new location is 90
+The category is Rock
+Rock Question 2
+Answer was correct!!!!
+player_4 now has 3 Gold Coins.
+player_0 is the current player
+They have rolled a 2
+player_0 is not getting out of the penalty box
+player_1 is the current player
+They have rolled a 2
+player_1's new location is 890
+The category is Rock
+Rock Question 3
+Answer was correct!!!!
+player_1 now has 4 Gold Coins.
+player_2 is the current player
+They have rolled a 2
+player_2's new location is 890
+The category is Rock
+Rock Question 4
+Answer was correct!!!!
+player_2 now has 4 Gold Coins.
+player_3 is the current player
+They have rolled a 2
+player_3 is not getting out of the penalty box
+player_4 is the current player
+They have rolled a 2
+player_4's new location is 890
+The category is Rock
+Rock Question 5
+Answer was correct!!!!
+player_4 now has 4 Gold Coins.
+player_0 is the current player
+They have rolled a 2
+player_0 is not getting out of the penalty box
+player_1 is the current player
+They have rolled a 2
+player_1's new location is 8890
+The category is Rock
+Rock Question 6
+Answer was correct!!!!
+player_1 now has 5 Gold Coins.
+player_2 is the current player
+They have rolled a 2
+player_2's new location is 8890
+The category is Rock
+Rock Question 7
+Answer was correct!!!!
+player_2 now has 5 Gold Coins.
+player_3 is the current player
+They have rolled a 2
+player_3 is not getting out of the penalty box
+player_4 is the current player
+They have rolled a 2
+player_4's new location is 8890
+The category is Rock
+Rock Question 8
+Answer was correct!!!!
+player_4 now has 5 Gold Coins.
+player_0 is the current player
+They have rolled a 2
+player_0 is not getting out of the penalty box
+player_1 is the current player
+They have rolled a 2
+player_1's new location is 88890
+The category is Rock
+Rock Question 9
+Answer was correct!!!!
+player_1 now has 6 Gold Coins.
