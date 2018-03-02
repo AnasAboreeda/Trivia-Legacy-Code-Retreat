@@ -24,11 +24,11 @@ exports.Game = function() {
     var sportsPos = [2, 6, 10];
     var PlayerPos = parseInt(places[currentPlayer]);
 
-    if (popPos.indexOf(PlayerPos) > -1) { return 'Pop'; }
-    if (sciencePos.indexOf(PlayerPos) > -1) { return 'Science'; }
-    if (sportsPos.indexOf(PlayerPos) > -1) { return 'Sports'; }
+    if (popPos.indexOf(PlayerPos) > -1) { return "Pop"; }
+    if (sciencePos.indexOf(PlayerPos) > -1) { return "Science"; }
+    if (sportsPos.indexOf(PlayerPos) > -1) { return "Sports"; }
 
-    return 'Rock';
+    return "Rock";
   };
 
   // This will enable us to add question whenever the question bank is empty
@@ -77,13 +77,13 @@ exports.Game = function() {
 
 
   var askQuestion = function(){
-    if(currentCategory() == 'Pop')
+    if(currentCategory() == "Pop")
       console.log(popQuestions.shift());
-    if(currentCategory() == 'Science')
+    if(currentCategory() == "Science")
       console.log(scienceQuestions.shift());
-    if(currentCategory() == 'Sports')
+    if(currentCategory() == "Sports")
       console.log(sportsQuestions.shift());
-    if(currentCategory() == 'Rock')
+    if(currentCategory() == "Rock")
       console.log(rockQuestions.shift());
   };
 
@@ -124,7 +124,7 @@ exports.Game = function() {
   this.wasCorrectlyAnswered = function(){
     if(inPenaltyBox[currentPlayer]){
       if(isGettingOutOfPenaltyBox){
-        console.log('Answer was correct!!!!');
+        console.log("Answer was correct!!!!");
         purses[currentPlayer] += 1;
         console.log(players[currentPlayer] + " now has " +
                     purses[currentPlayer]  + " Gold Coins.");
@@ -163,7 +163,7 @@ exports.Game = function() {
   };
 
   this.wrongAnswer = function(){
-		console.log('Question was incorrectly answered');
+		console.log("Question was incorrectly answered");
 		console.log(players[currentPlayer] + " was sent to the penalty box");
 		inPenaltyBox[currentPlayer] = true;
 
