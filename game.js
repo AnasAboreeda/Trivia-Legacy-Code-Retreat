@@ -43,6 +43,9 @@ exports.Game = function() {
   };
 
   this.isPlayable = function(howManyPlayers){
+    if (!howManyPlayers) {
+      return this.howManyPlayers >= 2;
+    }
     return howManyPlayers >= 2;
   };
 

@@ -58,7 +58,6 @@ describe('Game Play', function() {
     game.add('Anas');
     game.add('Tom');
 
-    //FIXME: isPlayable needs to be refactored
     expect(game.isPlayable(game.howManyPlayers())).toBe(true);
   });
 
@@ -66,8 +65,14 @@ describe('Game Play', function() {
     var game = new Game();
     game.add('Tom');
 
-    //FIXME: isPlayable needs to be refactored
     expect(game.isPlayable(game.howManyPlayers())).toBe(false);
+  });
+
+  it('Should not be playable after adding one player, testing with no input to is playable', function(){
+    var game = new Game();
+    game.add('Tom');
+
+    expect(game.isPlayable()).toBe(false);
   });
 
   // Testing: roll
