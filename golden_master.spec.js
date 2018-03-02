@@ -44,4 +44,7 @@ describe('The test environment', function () {
       generateGoldenMaster('golden_master_original');
     }
   });
+  it('should create new test results to compare it with the gold master', function () {
+    generateGoldenMaster('test_results');
+  });
 });
