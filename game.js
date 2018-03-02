@@ -146,44 +146,25 @@ exports.Game = function() {
     }
   };
 
-  this.wasCorrectlyAnswered = function(){
-    if(inPenaltyBox[currentPlayer]){
-      if(isGettingOutOfPenaltyBox){
-        console.log("Answer was correct!!!!");
-        purses[currentPlayer] += 1;
-        console.log(players[currentPlayer] + " now has " +
-                    purses[currentPlayer]  + " Gold Coins.");
+  var correctAnswer = function() {
+    console.log("Answer was correct!!!!");
+    purses[currentPlayer] += 1;
+    console.log(players[currentPlayer] + " now has " + purses[currentPlayer] + " Gold Coins.");
 
-        var winner = didPlayerWin();
-        currentPlayer += 1;
-        if(currentPlayer == players.length)
-          currentPlayer = 0;
+    var winner = didPlayerWin();
+    currentPlayer += 1;
+    if (currentPlayer === players.length) { currentPlayer = 0; }
 
-        return winner;
-      }else{
+    return winner;
+  };
+
+  this.wasCorrectlyAnswered = function() {
+    if (inPenaltyBox[currentPlayer] && !isGettingOutOfPenaltyBox) {
         currentPlayer += 1;
-        if(currentPlayer == players.length)
-          currentPlayer = 0;
+        if (currentPlayer === players.length) { currentPlayer = 0; }
         return true;
-      }
-
-
-
-    }else{
-
-      console.log("Answer was correct!!!!");
-
-      purses[currentPlayer] += 1;
-      console.log(players[currentPlayer] + " now has " +
-                  purses[currentPlayer]  + " Gold Coins.");
-
-      var winner = didPlayerWin();
-
-      currentPlayer += 1;
-      if(currentPlayer == players.length)
-        currentPlayer = 0;
-
-      return winner;
+    } else {
+      return correctAnswer();
     }
   };
 
