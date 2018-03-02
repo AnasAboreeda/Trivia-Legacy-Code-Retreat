@@ -77,14 +77,39 @@ exports.Game = function() {
 
 
   var askQuestion = function(){
-    if(currentCategory() == "Pop")
-      console.log(popQuestions.shift());
-    if(currentCategory() == "Science")
-      console.log(scienceQuestions.shift());
-    if(currentCategory() == "Sports")
-      console.log(sportsQuestions.shift());
-    if(currentCategory() == "Rock")
-      console.log(rockQuestions.shift());
+    var category = currentCategory();
+    switch(category) {
+      case "Pop":
+        if(popQuestions.length === 0) {
+          this.createQuestion(0, "Pop");
+        }
+        console.log(popQuestions.shift());
+        break;
+
+      case "Science":
+        if(scienceQuestions.length === 0) {
+          this.createQuestion(0, "Science");
+        }
+        console.log(scienceQuestions.shift());
+        break;
+
+      case "Sports":
+        if(sportsQuestions.length === 0) {
+          this.createQuestion(0, "Sports");
+        }
+        console.log(sportsQuestions.shift());
+        break;
+
+      case "Rock":
+        if(rockQuestions.length === 0) {
+          this.createQuestion(0, "Rock");
+        }
+        console.log(rockQuestions.shift());
+        break;
+
+      default:
+        console.error("Could not find a question for the current category");
+    }
   };
 
   this.roll = function(roll){
