@@ -31,15 +31,25 @@ exports.Game = function() {
     return 'Rock';
   };
 
+  // This will enable us to add question whenever the question bank is empty
+  this.createQuestion = function(index, category) {
+    return category.trim() + " Question " + index;
+  };
+
+  /*
+    Keeping this function even if it's a duplicate because it existed as an
+    interface from the begging
+    So may be there is another client using it.
+   */
   this.createRockQuestion = function(index){
-    return "Rock Question "+index;
+    return this.createQuestion(index, "Rock");
   };
 
   for(var i = 0; i < 50; i++){
-    popQuestions.push("Pop Question "+i);
-    scienceQuestions.push("Science Question "+i);
-    sportsQuestions.push("Sports Question "+i);
-    rockQuestions.push(this.createRockQuestion(i));
+    popQuestions.push(this.createQuestion(i, "Pop"));
+    scienceQuestions.push(this.createQuestion(i, "Science"));
+    sportsQuestions.push(this.createQuestion(i, "Sports"));
+    rockQuestions.push(this.createQuestion(i, "Rock"));
   };
 
   this.isPlayable = function(howManyPlayers){
