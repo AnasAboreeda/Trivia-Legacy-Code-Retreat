@@ -57,6 +57,6 @@ describe('Golden master', function () {
     };
     var res = dircompare.compareSync(goldenMasterPath, testResultsPath, options);
     console.log('res', res);
-    expect(res.distinct).toBe(1);
+    expect(res.distinct).toBe(0);
   });
 });
