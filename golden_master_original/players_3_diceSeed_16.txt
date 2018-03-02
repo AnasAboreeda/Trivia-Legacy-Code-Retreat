@@ -44,220 +44,75 @@ They have rolled a 4
 player_2's new location is 32
 The category is Rock
 Rock Question 2
-Question was incorrectly answered
-player_2 was sent to the penalty box
+Answer was correct!!!!
+player_2 now has 2 Gold Coins.
 player_0 is the current player
 They have rolled a 4
 player_0's new location is 312
 The category is Rock
 Rock Question 3
-Question was incorrectly answered
-player_0 was sent to the penalty box
+Answer was correct!!!!
+player_0 now has 3 Gold Coins.
 player_1 is the current player
 They have rolled a 4
 player_1's new location is 312
 The category is Rock
 Rock Question 4
-Question was incorrectly answered
-player_1 was sent to the penalty box
+Answer was correct!!!!
+player_1 now has 3 Gold Coins.
 player_2 is the current player
 They have rolled a 4
-player_2 is not getting out of the penalty box
+player_2's new location is 312
+The category is Rock
+Rock Question 5
+Answer was correct!!!!
+player_2 now has 3 Gold Coins.
 player_0 is the current player
 They have rolled a 4
-player_0 is not getting out of the penalty box
+player_0's new location is 3112
+The category is Rock
+Rock Question 6
+Answer was correct!!!!
+player_0 now has 4 Gold Coins.
 player_1 is the current player
 They have rolled a 4
-player_1 is not getting out of the penalty box
+player_1's new location is 3112
+The category is Rock
+Rock Question 7
+Answer was correct!!!!
+player_1 now has 4 Gold Coins.
 player_2 is the current player
 They have rolled a 4
-player_2 is not getting out of the penalty box
+player_2's new location is 3112
+The category is Rock
+Rock Question 8
+Answer was correct!!!!
+player_2 now has 4 Gold Coins.
 player_0 is the current player
 They have rolled a 4
-player_0 is not getting out of the penalty box
+player_0's new location is 31112
+The category is Rock
+Rock Question 9
+Answer was correct!!!!
+player_0 now has 5 Gold Coins.
 player_1 is the current player
 They have rolled a 4
-player_1 is not getting out of the penalty box
+player_1's new location is 31112
+The category is Rock
+Rock Question 10
+Answer was correct!!!!
+player_1 now has 5 Gold Coins.
 player_2 is the current player
 They have rolled a 4
-player_2 is not getting out of the penalty box
+player_2's new location is 31112
+The category is Rock
+Rock Question 11
+Answer was correct!!!!
+player_2 now has 5 Gold Coins.
 player_0 is the current player
 They have rolled a 4
-player_0 is not getting out of the penalty box
-player_1 is the current player
-They have rolled a 4
-player_1 is not getting out of the penalty box
-player_2 is the current player
-They have rolled a 4
-player_2 is not getting out of the penalty box
-player_0 is the current player
-They have rolled a 4
-player_0 is not getting out of the penalty box
-player_1 is the current player
-They have rolled a 4
-player_1 is not getting out of the penalty box
-player_2 is the current player
-They have rolled a 4
-player_2 is not getting out of the penalty box
-player_0 is the current player
-They have rolled a 4
-player_0 is not getting out of the penalty box
-player_1 is the current player
-They have rolled a 4
-player_1 is not getting out of the penalty box
-player_2 is the current player
-They have rolled a 4
-player_2 is not getting out of the penalty box
-player_0 is the current player
-They have rolled a 4
-player_0 is not getting out of the penalty box
-player_1 is the current player
-They have rolled a 4
-player_1 is not getting out of the penalty box
-Question was incorrectly answered
-player_1 was sent to the penalty box
-player_2 is the current player
-They have rolled a 4
-player_2 is not getting out of the penalty box
-player_0 is the current player
-They have rolled a 4
-player_0 is not getting out of the penalty box
-player_1 is the current player
-They have rolled a 4
-player_1 is not getting out of the penalty box
-player_2 is the current player
-They have rolled a 4
-player_2 is not getting out of the penalty box
-player_0 is the current player
-They have rolled a 4
-player_0 is not getting out of the penalty box
-player_1 is the current player
-They have rolled a 4
-player_1 is not getting out of the penalty box
-player_2 is the current player
-They have rolled a 4
-player_2 is not getting out of the penalty box
-player_0 is the current player
-They have rolled a 4
-player_0 is not getting out of the penalty box
-player_1 is the current player
-They have rolled a 4
-player_1 is not getting out of the penalty box
-player_2 is the current player
-They have rolled a 4
-player_2 is not getting out of the penalty box
-player_0 is the current player
-They have rolled a 4
-player_0 is not getting out of the penalty box
-player_1 is the current player
-They have rolled a 4
-player_1 is not getting out of the penalty box
-player_2 is the current player
-They have rolled a 4
-player_2 is not getting out of the penalty box
-player_0 is the current player
-They have rolled a 4
-player_0 is not getting out of the penalty box
-player_1 is the current player
-They have rolled a 4
-player_1 is not getting out of the penalty box
-player_2 is the current player
-They have rolled a 4
-player_2 is not getting out of the penalty box
-player_0 is the current player
-They have rolled a 4
-player_0 is not getting out of the penalty box
-player_1 is the current player
-They have rolled a 4
-player_1 is not getting out of the penalty box
-player_2 is the current player
-They have rolled a 4
-player_2 is not getting out of the penalty box
-player_0 is the current player
-They have rolled a 4
-player_0 is not getting out of the penalty box
-player_1 is the current player
-They have rolled a 4
-player_1 is not getting out of the penalty box
-player_2 is the current player
-They have rolled a 4
-player_2 is not getting out of the penalty box
-player_0 is the current player
-They have rolled a 4
-player_0 is not getting out of the penalty box
-player_1 is the current player
-They have rolled a 4
-player_1 is not getting out of the penalty box
-player_2 is the current player
-They have rolled a 4
-player_2 is not getting out of the penalty box
-player_0 is the current player
-They have rolled a 4
-player_0 is not getting out of the penalty box
-player_1 is the current player
-They have rolled a 4
-player_1 is not getting out of the penalty box
-player_2 is the current player
-They have rolled a 4
-player_2 is not getting out of the penalty box
-player_0 is the current player
-They have rolled a 4
-player_0 is not getting out of the penalty box
-player_1 is the current player
-They have rolled a 4
-player_1 is not getting out of the penalty box
-player_2 is the current player
-They have rolled a 4
-player_2 is not getting out of the penalty box
-player_0 is the current player
-They have rolled a 4
-player_0 is not getting out of the penalty box
-player_1 is the current player
-They have rolled a 4
-player_1 is not getting out of the penalty box
-Question was incorrectly answered
-player_1 was sent to the penalty box
-player_2 is the current player
-They have rolled a 4
-player_2 is not getting out of the penalty box
-player_0 is the current player
-They have rolled a 4
-player_0 is not getting out of the penalty box
-player_1 is the current player
-They have rolled a 4
-player_1 is not getting out of the penalty box
-player_2 is the current player
-They have rolled a 4
-player_2 is not getting out of the penalty box
-player_0 is the current player
-They have rolled a 4
-player_0 is not getting out of the penalty box
-player_1 is the current player
-They have rolled a 4
-player_1 is not getting out of the penalty box
-player_2 is the current player
-They have rolled a 4
-player_2 is not getting out of the penalty box
-player_0 is the current player
-They have rolled a 4
-player_0 is not getting out of the penalty box
-player_1 is the current player
-They have rolled a 4
-player_1 is not getting out of the penalty box
-player_2 is the current player
-They have rolled a 4
-player_2 is not getting out of the penalty box
-player_0 is the current player
-They have rolled a 4
-player_0 is not getting out of the penalty box
-player_1 is the current player
-They have rolled a 4
-player_1 is not getting out of the penalty box
-player_2 is the current player
-They have rolled a 4
-player_2 is not getting out of the penalty box
-player_0 is the current player
-They have rolled a 4
-player_0 is not getting out of the penalty box
-player_1 is the current player
-They have rolled a 4
+player_0's new location is 311112
+The category is Rock
+Rock Question 12
+Answer was correct!!!!
+player_0 now has 6 Gold Coins.

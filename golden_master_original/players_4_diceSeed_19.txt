@@ -123,8 +123,8 @@ They have rolled a 1
 player_0's new location is 9779
 The category is Rock
 Rock Question 12
-Question was incorrectly answered
-player_0 was sent to the penalty box
+Answer was correct!!!!
+player_0 now has 5 Gold Coins.
 player_1 is the current player
 They have rolled a 1
 player_1's new location is 9779
@@ -148,16 +148,8 @@ Answer was correct!!!!
 player_3 now has 5 Gold Coins.
 player_0 is the current player
 They have rolled a 1
-player_0 is getting out of the penalty box
 player_0's new location is 97779
 The category is Rock
 Rock Question 16
 Answer was correct!!!!
-player_0 now has 5 Gold Coins.
-player_1 is the current player
-They have rolled a 1
-player_1's new location is 97779
-The category is Rock
-Rock Question 17
-Answer was correct!!!!
-player_1 now has 6 Gold Coins.
+player_0 now has 6 Gold Coins.

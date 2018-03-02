@@ -109,15 +109,15 @@ They have rolled a 3
 player_2's new location is 2001
 The category is Rock
 Rock Question 14
-Question was incorrectly answered
-player_2 was sent to the penalty box
+Answer was correct!!!!
+player_2 now has 4 Gold Coins.
 player_3 is the current player
 They have rolled a 3
 player_3's new location is 2001
 The category is Rock
 Rock Question 15
-Question was incorrectly answered
-player_3 was sent to the penalty box
+Answer was correct!!!!
+player_3 now has 4 Gold Coins.
 player_0 is the current player
 They have rolled a 3
 player_0's new location is 20001
@@ -134,20 +134,18 @@ Answer was correct!!!!
 player_1 now has 5 Gold Coins.
 player_2 is the current player
 They have rolled a 3
-player_2 is getting out of the penalty box
 player_2's new location is 20001
 The category is Rock
 Rock Question 18
 Answer was correct!!!!
-player_2 now has 4 Gold Coins.
+player_2 now has 5 Gold Coins.
 player_3 is the current player
 They have rolled a 3
-player_3 is getting out of the penalty box
 player_3's new location is 20001
 The category is Rock
 Rock Question 19
 Answer was correct!!!!
-player_3 now has 4 Gold Coins.
+player_3 now has 5 Gold Coins.
 player_0 is the current player
 They have rolled a 3
 player_0's new location is 200001

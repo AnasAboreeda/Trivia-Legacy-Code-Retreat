@@ -1,4 +1,4 @@
-function play (playersCount, diceRoll, randomNo){
+function play(playersCount, diceRoll, randomNo) {
   require('./game.js');
 
   var notAWinner = false;
@@ -11,16 +11,16 @@ function play (playersCount, diceRoll, randomNo){
     game.add(playerName);
   }
 
-  do{
+  do {
     game.roll(diceRoll);
 
-    if(Math.floor(randomNo * 10) === 7){
+    if (Math.floor(randomNo * 10) === 7) {
       notAWinner = game.wrongAnswer();
-    }else{
+    } else {
       notAWinner = game.wasCorrectlyAnswered();
     }
 
-  }while(notAWinner);
+  } while (notAWinner);
   process.exit();
 }
 
