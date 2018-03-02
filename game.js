@@ -19,24 +19,15 @@ exports.Game = function() {
   };
 
   var currentCategory = function(){
-    if(places[currentPlayer] == 0)
-      return 'Pop';
-    if(places[currentPlayer] == 4)
-      return 'Pop';
-    if(places[currentPlayer] == 8)
-      return 'Pop';
-    if(places[currentPlayer] == 1)
-      return 'Science';
-    if(places[currentPlayer] == 5)
-      return 'Science';
-    if(places[currentPlayer] == 9)
-      return 'Science';
-    if(places[currentPlayer] == 2)
-      return 'Sports';
-    if(places[currentPlayer] == 6)
-      return 'Sports';
-    if(places[currentPlayer] == 10)
-      return 'Sports';
+    var popPos = [0, 4, 8];
+    var sciencePos = [1, 5, 9];
+    var sportsPos = [2, 6, 10];
+    var PlayerPos = parseInt(places[currentPlayer]);
+
+    if (popPos.indexOf(PlayerPos) > -1) { return 'Pop'; }
+    if (sciencePos.indexOf(PlayerPos) > -1) { return 'Science'; }
+    if (sportsPos.indexOf(PlayerPos) > -1) { return 'Sports'; }
+
     return 'Rock';
   };
 
