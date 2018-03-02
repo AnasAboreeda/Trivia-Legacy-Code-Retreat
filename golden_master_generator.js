@@ -1,4 +1,4 @@
-function play (playersCount, diceRoll){
+function play (playersCount, diceRoll, randomNo){
   require('./game.js');
 
   var notAWinner = false;
@@ -12,9 +12,9 @@ function play (playersCount, diceRoll){
   }
 
   do{
-    game.roll(diceRoll || Math.floor(Math.random()*6) + 1);
+    game.roll(diceRoll);
 
-    if(Math.floor(Math.random()*10) === 7){
+    if(Math.floor(randomNo * 10) === 7){
       notAWinner = game.wrongAnswer();
     }else{
       notAWinner = game.wasCorrectlyAnswered();
@@ -25,4 +25,4 @@ function play (playersCount, diceRoll){
 }
 
 var args = process.argv;
-play(args[2], args[3]);
+play(args[2], args[3], args[4]);
