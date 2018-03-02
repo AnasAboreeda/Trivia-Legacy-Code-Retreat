@@ -47,16 +47,16 @@ describe('Golden master', function () {
     }
   });
 
-  it('should create new test results to compare it with the gold master', function () {
-    generateGoldenMaster('test_results');
-  });
+  // it('should create new test results to compare it with the gold master', function () {
+  //   generateGoldenMaster('test_results');
+  // });
 
-  it('Should compare test results folder with the golden master', function () {
-    var options = {
-      compareContent: true
-    };
-    var res = dircompare.compareSync(goldenMasterPath, testResultsPath, options);
-    console.log('res', res);
-    expect(res.distinct).toBe(0);
-  });
+  // it('Should compare test results folder with the golden master', function () {
+  //   var options = {
+  //     compareContent: true
+  //   };
+  //   var res = dircompare.compareSync(goldenMasterPath, testResultsPath, options);
+  //   console.log('res', res);
+  //   expect(res.distinct).toBe(0);
+  // });
 });
