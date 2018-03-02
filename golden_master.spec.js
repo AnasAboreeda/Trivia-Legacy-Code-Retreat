@@ -3,6 +3,8 @@ var seedrandom = require('seedrandom');
 var play = './golden_master_generator.js';
 var spawn = require('child_process').spawn;
 var goldenMasterPath = './golden_master_original';
+var testResultsPath = './test_results';
+var dircompare = require('dir-compare');
 
 function generateGoldenMaster(folderPath) {
   var maxPlayers = 5;
@@ -44,7 +46,17 @@ describe('Golden master', function () {
       generateGoldenMaster('golden_master_original');
     }
   });
+
   it('should create new test results to compare it with the gold master', function () {
     generateGoldenMaster('test_results');
+  });
+
+  it('Should compare test results folder with the golden master', function () {
+    var options = {
+      compareContent: true
+    };
+    var res = dircompare.compareSync(goldenMasterPath, testResultsPath, options);
+    console.log('res', res);
+    expect(res.distinct).toBe(1);
   });
 });

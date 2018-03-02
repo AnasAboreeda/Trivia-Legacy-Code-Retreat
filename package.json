@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/AnasFullStack/Trivia-Legacy-Code-Retreat#readme",
   "devDependencies": {
+    "dir-compare": "^1.4.0",
     "jasmine": "^3.1.0",
     "mocha-sinon": "^2.0.0",
     "seedrandom": "^2.4.3",
