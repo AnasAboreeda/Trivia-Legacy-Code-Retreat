@@ -78,7 +78,7 @@ describe('Game Play', function() {
   // Testing: roll
   it('Should be able to roll the dice', function(){
     var game = new Game();
-    var dice = Math.floor(Math.random()*6) + 1;
+    var dice = 3;
     var expectedOutput = [ [ 'Tom was added' ],
     [ 'They are player number 1' ],
     [ 'Dan was added' ],
@@ -94,7 +94,7 @@ describe('Game Play', function() {
 
     game.roll(dice);
 
-    expect(console.log.args.join(), expectedOutput.join());
+    expect(console.log.args.join()).toBe(expectedOutput.join());
   });
 
 });
