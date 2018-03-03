@@ -178,4 +178,26 @@ exports.Game = function() {
     if (currentPlayer === players.length) { currentPlayer = 0; }
     return true;
   };
+
+  this.play = function(playersCount, diceRoll, randomNo) {
+
+    var notAWinner = false;
+
+    // Add new players
+    for (var i = 0; i < playersCount; i += 1) {
+      var playerName = "player_" + i;
+      this.add(playerName);
+    }
+
+    do {
+      this.roll(diceRoll);
+
+      if (Math.floor(randomNo * 10) === 7) {
+        notAWinner = this.wrongAnswer();
+      } else {
+        notAWinner = this.wasCorrectlyAnswered();
+      }
+
+    } while (notAWinner);
+  };
 };

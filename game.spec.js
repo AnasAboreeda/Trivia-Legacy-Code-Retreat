@@ -97,4 +97,14 @@ describe('Game Play', function() {
     expect(console.log.args.join()).toBe(expectedOutput.join());
   });
 
+  // Should be able to play
+  it('Should be able to play', function(){
+    var game = new Game();
+    var dice = 5;
+    var randNo = 7;
+    var playersNo = 4;
+    game.play(playersNo, dice, randNo);
+
+    expect(console.log.args.join().length).toBe(3851);
+  });
 });
